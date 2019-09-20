@@ -24,6 +24,10 @@ const UserSchema = new mongoose.Schema({
     confirmed: {
         type: Boolean,
         default: false
+    },
+    googleId: {
+        type: String,
+        default: ''
     }
 });
 
